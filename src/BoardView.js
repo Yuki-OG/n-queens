@@ -1,6 +1,9 @@
 // This file is a Backbone View.
 // It's part of the board visualizer
-var board = new Board({n: 4});
+var board3 = new Board({n: 3});
+var board4 = new Board({n: 4});
+var board5 = new Board({n: 5});
+var board8 = new Board({n: 8})
 (function() {
 
   window.BoardView = Backbone.View.extend({
