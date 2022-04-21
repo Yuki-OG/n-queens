@@ -1,6 +1,6 @@
 // This file is a Backbone View.
 // It's part of the board visualizer
-
+var board = new Board({n: 4});
 (function() {
 
   window.BoardView = Backbone.View.extend({
